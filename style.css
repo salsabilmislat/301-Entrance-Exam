@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-image:url("image/Exam.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 700%;
+}
+header{
+    margin-bottom: 57px;
+}
+header h1{
+background-color: rgba(64, 34, 24,0.7);
+background-blend-mode: screen;
+color: #eee;
+font-size: 20pt;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: bold;
+}
+
+#contaner{
+    position: relative;
+}
+
+#form-contaner{
+    background-color: rgba(64, 34, 24,0.7);
+background-blend-mode: screen;
+width: 45%;
+padding-top: 20px;
+padding-bottom: 18px;
+margin-bottom: 57px;
+margin-left: 24px;
+/* float: left; */
+position: absolute;
+}
+
+label{
+    margin-left: 10px;
+    color: #eee;
+}
+
+input{
+    width: 267px;
+    margin-left: 188px;
+}
+select{
+    width: 268px;
+    margin-left: 194px;
+}
+#bt{
+    width: 268px;
+    margin-left: 284px;
+background-color: #C68B59;
+color: #eee;
+}
+#table-contaner{
+    background-color: rgba(64, 34, 24,0.7);
+    background-blend-mode: screen;
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    color: #eee;
+    /* margin-bottom: 40px; */
+    /* overflow: hidden; */
+    position: absolute;
+    margin-left: 814px;
+}
+table{
+    border: #eee solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+
+th{
+    border: #eee solid 1px;
+}
+tr{
+    border: #eee solid 1px;
+}
+td{
+    border: #eee solid 1px;
+}
+
+
+
+
+footer{
+    background-color: rgba(64, 34, 24,0.7);
+    background-blend-mode: screen;
+    color: #eee;
+    font-size: 11pt;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    position: fixed;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
